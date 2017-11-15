@@ -8,8 +8,13 @@
     "node": ">=6.4.0"
   },
   "scripts": {
+    "run": "node Sever/index.js"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1",
+    "request": "^2.83.0"
   },
   "devDependencies": {
     "babel-cli": "^6.7.5",
